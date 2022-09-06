@@ -1,0 +1,26 @@
+.App {
+  display:flex ;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50vh;
+}
+
+.list {
+  display:flex ;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 4px;
+}
+.todoItem {
+  cursor: pointer;
+
+}
