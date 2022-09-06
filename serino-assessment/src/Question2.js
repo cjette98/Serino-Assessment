@@ -1,7 +1,6 @@
 import React from "react";
 import "../src/App.css";
-import ListOfTodo from './components/ListOfTodo';
-import AddingTodo from './components/AddingTodo';
+import { AddingTodo, ListOfTodo } from './components';
 import Provider from './context/ProviderWrapper';
 
 function Question2() {

@@ -7,8 +7,8 @@ const initialState = {
 };
 
 const actions = {
-    ADD_TODO: "ADDING_TODO_ITEM",
-    REMOVE_TODO: "REMOVING_TODO_ITEM",
+    ADD_TODO: "ADD_TODO",
+    REMOVE_TODO: "REMOVE_TODO",
 };
 
 const reducer = (state, action) => {
